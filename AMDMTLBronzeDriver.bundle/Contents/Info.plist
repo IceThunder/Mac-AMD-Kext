@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>AMDMTLBronzeDriver</string>
+	<key>CFBundleGetInfoString</key>
+	<string>AMDMTLBronzeDriver 1.50.38 18416</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.AMDMTLBronzeDriver</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>AMD Bronze Metal Driver</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.50.38</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.5.0</string>
+	<key>NSPrincipalClass</key>
+	<string>BronzeMtlDevice</string>
+</dict>
+</plist>

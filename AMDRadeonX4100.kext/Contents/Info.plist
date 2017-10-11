@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>AMDRadeonX4100</string>
+	<key>CFBundleGetInfoString</key>
+	<string>AMDRadeonX4100 1.50.38 18416</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.kext.AMDRadeonX4100</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>AMDRadeonX4100 Graphics Accelerator Kernel Extension</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.50.38</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.5.0</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>AMDBaffinGraphicsAccelerator</key>
+		<dict>
+			<key>ATIEnableWideBlitSupport</key>
+			<true/>
+			<key>ATIUseTearingWideBlit</key>
+			<false/>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.kext.AMDRadeonX4100</string>
+			<key>GpuDebugPolicy</key>
+			<integer>0</integer>
+			<key>IOClass</key>
+			<string>AMDRadeonX4100_AMDBaffinGraphicsAccelerator</string>
+			<key>IODVDBundleName</key>
+			<string>AMDRadeonVADriver</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOMatchCategory</key>
+			<string>IOAccelerator</string>
+			<key>IOPCIMatch</key>
+			<string>0x67E01002 0x67FF1002 0x67EF1002</string>
+			<key>IOProbeScore</key>
+			<integer>250</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOSourceVersion</key>
+			<string>0.0.0.0.0</string>
+			<key>IOVARendererID</key>
+			<integer>16908288</integer>
+			<key>cail_properties</key>
+			<dict>
+				<key>CAIL_DisableQuickGfxMGPowerGating</key>
+				<integer>0</integer>
+				<key>CAIL_DisableStaticGfxMGPowerGating</key>
+				<integer>1</integer>
+				<key>CAIL_EnableLBPWSupport</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2005-2016 Apple Inc. All rights reserved.</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOAcceleratorFamily2</key>
+		<string>2.0.0</string>
+		<key>com.apple.iokit.IOGraphicsFamily</key>
+		<string>1.0.0b1</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.0.0b1</string>
+		<key>com.apple.iokit.IOSurface</key>
+		<string>87.0</string>
+		<key>com.apple.kpi.bsd</key>
+		<string>8.0.0</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>8.0.0</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>8.0.0</string>
+		<key>com.apple.kpi.mach</key>
+		<string>8.0.0</string>
+		<key>com.apple.kpi.unsupported</key>
+		<string>8.0.0</string>
+	</dict>
+</dict>
+</plist>
