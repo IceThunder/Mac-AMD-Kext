@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>16E192</string>
+	<string>16G18</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>AMD4600Controller</string>
 	<key>CFBundleGetInfoString</key>
-	<string>AMD4600Controller 1.50.38 18416</string>
+	<string>AMD4600Controller 1.51.8 18578</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.apple.kext.AMD4600Controller</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -19,7 +19,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.50.38</string>
+	<string>1.51.8</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -27,7 +27,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.5.0</string>
+	<string>1.5.1</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -35,7 +35,7 @@
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>16E192</string>
+	<string>16G18</string>
 	<key>DTSDKName</key>
 	<string>macosx10.12internal</string>
 	<key>DTXcode</key>
@@ -93,7 +93,7 @@
 		<key>com.apple.iokit.IOPCIFamily</key>
 		<string>1.2</string>
 		<key>com.apple.kext.AMDLegacySupport</key>
-		<string>1.5.0</string>
+		<string>1.5.1</string>
 		<key>com.apple.kpi.bsd</key>
 		<string>8.0.0</string>
 		<key>com.apple.kpi.iokit</key>

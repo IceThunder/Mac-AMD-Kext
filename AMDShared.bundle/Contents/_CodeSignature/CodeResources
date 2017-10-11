@@ -14,7 +14,7 @@
 		</data>
 		<key>version.plist</key>
 		<data>
-		cuPNnjFYj7D5L9WS/88jkTwAZ/aqAh3blWr+sRrfA/M=
+		i5b9DwFxRHLZvv8ZRWhEJl+ZszWlcN8MUGehSg+55sg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -23,7 +23,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			+xc4knTvTJiGxG5gjAwGKsGBga4=
+			Q7aCUj/m4bWFXgXseiOpbUgA6zE=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.libAMDMtlCompilerPlugin" and anchor apple</string>
@@ -38,7 +38,7 @@
 		</data>
 		<key>version.plist</key>
 		<data>
-		cuPNnjFYj7D5L9WS/88jkTwAZ/aqAh3blWr+sRrfA/M=
+		i5b9DwFxRHLZvv8ZRWhEJl+ZszWlcN8MUGehSg+55sg=
 		</data>
 	</dict>
 	<key>rules</key>

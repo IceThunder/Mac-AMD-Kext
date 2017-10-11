@@ -6,7 +6,7 @@
 	<dict>
 		<key>version.plist</key>
 		<data>
-		cuPNnjFYj7D5L9WS/88jkTwAZ/aqAh3blWr+sRrfA/M=
+		i5b9DwFxRHLZvv8ZRWhEJl+ZszWlcN8MUGehSg+55sg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,14 +15,14 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			MvjoCrqU9EHhoGbd2wQGitd4jWI=
+			KjPJl3pOXiV7vmnh3/9oiXjkdVY=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.ATIRadeonX4000SCLib" and anchor apple</string>
 		</dict>
 		<key>version.plist</key>
 		<data>
-		cuPNnjFYj7D5L9WS/88jkTwAZ/aqAh3blWr+sRrfA/M=
+		i5b9DwFxRHLZvv8ZRWhEJl+ZszWlcN8MUGehSg+55sg=
 		</data>
 	</dict>
 	<key>rules</key>
