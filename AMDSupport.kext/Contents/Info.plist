@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>16G18</string>
+	<string>16B2657</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>AMDSupport</string>
 	<key>CFBundleGetInfoString</key>
-	<string>AMDSupport 1.51.8 18578</string>
+	<string>AMDSupport 1.58.30 18928</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.apple.kext.AMDSupport</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>AMD IOFB Support Service</string>
+	<string>"Radeon Support"</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.51.8</string>
+	<string>1.58.30</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -27,25 +27,28 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.5.1</string>
-	<key>CompanionBundles</key>
-	<array>
-		<string>AMDShared.bundle</string>
-	</array>
+	<string>1.5.8</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>8V109d</string>
+	<string>9M189u</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>16G18</string>
+	<string>17A356</string>
 	<key>DTSDKName</key>
-	<string>macosx10.12internal</string>
+	<string>macosx10.13internal</string>
 	<key>DTXcode</key>
-	<string>0830</string>
+	<string>0900</string>
 	<key>DTXcodeBuild</key>
-	<string>8V109d</string>
+	<string>9M189u</string>
+	<key>GPUCompanionBundles</key>
+	<array>
+		<string>AMDShared.bundle</string>
+		<string>AMDShared800.bundle</string>
+		<string>AMDRadeonX5000Shared.bundle</string>
+		<string>AMDRadeonX5000Shared800.bundle</string>
+	</array>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>ATI Support</key>
@@ -60,6 +63,8 @@
 			<string>0x03000000&amp;0xFF000000</string>
 			<key>IOPCIMatch</key>
 			<string>0x00001002&amp;0x0000FFFF</string>
+			<key>IOPCITunnelCompatible</key>
+			<true/>
 			<key>IOProbeScore</key>
 			<integer>65050</integer>
 			<key>IOProviderClass</key>
@@ -67,7 +72,7 @@
 		</dict>
 	</dict>
 	<key>OSBundleCompatibleVersion</key>
-	<string>1.5.1</string>
+	<string>1.5.8</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.AppleGraphicsDeviceControl</key>

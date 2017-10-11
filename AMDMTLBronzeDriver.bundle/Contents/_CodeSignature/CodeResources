@@ -4,17 +4,64 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Resources/BronzeStatistics-analysis.js</key>
+		<data>
+		o7gYAge3eYPrv8dfvm02xVRwgY8=
+		</data>
+		<key>Resources/BronzeStatistics-counters.plist</key>
+		<data>
+		+O6v4+jbbwJ44HtmogzVlLzNlMg=
+		</data>
+		<key>Resources/BronzeStatistics-derived.js</key>
+		<data>
+		FFMlU1ZvzMM6D9qV/tl4jypIyNg=
+		</data>
+		<key>Resources/SI-BronzeStatistics-counters.plist</key>
+		<data>
+		DuVkBQ4/TpCsMuVPJTKcO3A2GZo=
+		</data>
 		<key>version.plist</key>
 		<data>
-		i5b9DwFxRHLZvv8ZRWhEJl+ZszWlcN8MUGehSg+55sg=
+		cO5BW6/9h7Ln39RFBujAdmyFGpQ=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Resources/BronzeStatistics-analysis.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			r6PJlqvr6Gkcz6obFw2TvGaMqtbiPtWKVqxf9VQuqqQ=
+			</data>
+		</dict>
+		<key>Resources/BronzeStatistics-counters.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			20bnkNUOe6Pu7UTV+HTQIuG/dhXfluU+bT3Uv4IWcYY=
+			</data>
+		</dict>
+		<key>Resources/BronzeStatistics-derived.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZUfedjj4orGCkTZH/IUjbhlmV6+0cSX9ta+5HeHuQnI=
+			</data>
+		</dict>
+		<key>Resources/SI-BronzeStatistics-counters.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			puU9CghFcfGGQS/OuU905dyoEX4Dq2p4jmWdudKHH2E=
+			</data>
+		</dict>
 		<key>version.plist</key>
-		<data>
-		i5b9DwFxRHLZvv8ZRWhEJl+ZszWlcN8MUGehSg+55sg=
-		</data>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DIhBF+MdAQlytRlv0xvAgctqaYAQt8mM+jAbmlWuJ1I=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
@@ -33,6 +80,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -92,6 +144,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>

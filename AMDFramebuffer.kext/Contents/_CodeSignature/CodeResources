@@ -4,17 +4,42 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Resources/AMDIOFBAcc</key>
+		<data>
+		IX122Us3dY6I3Zg5M5C0OAmC2iY=
+		</data>
+		<key>Resources/GpuWrangler.command</key>
+		<data>
+		+3azaW0OQMB9+zzTv7bYo8938N0=
+		</data>
 		<key>version.plist</key>
 		<data>
-		i5b9DwFxRHLZvv8ZRWhEJl+ZszWlcN8MUGehSg+55sg=
+		cO5BW6/9h7Ln39RFBujAdmyFGpQ=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Resources/AMDIOFBAcc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			50tD00VzhLLa7S2gpxvQOwHsHh95KN9Drvs7lpYRNJo=
+			</data>
+		</dict>
+		<key>Resources/GpuWrangler.command</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uZtjj6ffDUvOZV1rBDxGXxoK14IDuJMiLOVoWvPkpNo=
+			</data>
+		</dict>
 		<key>version.plist</key>
-		<data>
-		i5b9DwFxRHLZvv8ZRWhEJl+ZszWlcN8MUGehSg+55sg=
-		</data>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DIhBF+MdAQlytRlv0xvAgctqaYAQt8mM+jAbmlWuJ1I=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
@@ -33,6 +58,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -92,6 +122,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>

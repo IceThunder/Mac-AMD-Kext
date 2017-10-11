@@ -7,9 +7,9 @@
 	<key>CFBundleExecutable</key>
 	<string>AMDRadeonX3000</string>
 	<key>CFBundleGetInfoString</key>
-	<string>AMDRadeonX3000 1.51.8 18578</string>
+	<string>AMDRadeonX3000 1.58.30 18928</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.AMDRadeonX3000</string>
+	<string>com.apple.kext.AMDRadeonX3000</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -17,14 +17,15 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.51.8</string>
+	<string>1.58.30</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.5.1</string>
-	<key>CompanionBundles</key>
+	<string>1.5.8</string>
+	<key>GPUCompanionBundles</key>
 	<array>
-		<string>AMDRadeonX3000GLDriver.bundle</string>
+		<string>ATIRadeonX3000GA.plugin</string>
+		<string>ATIRadeonX3000GLDriver.bundle</string>
 	</array>
 	<key>IOKitPersonalities</key>
 	<dict>
@@ -35,7 +36,7 @@
 			<key>ATIUseTearingWideBlit</key>
 			<false/>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.AMDRadeonX3000</string>
+			<string>com.apple.kext.AMDRadeonX3000</string>
 			<key>GpuDebugPolicy</key>
 			<integer>0</integer>
 			<key>IOClass</key>
@@ -64,7 +65,7 @@
 			<key>ATIUseTearingWideBlit</key>
 			<false/>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.AMDRadeonX3000</string>
+			<string>com.apple.kext.AMDRadeonX3000</string>
 			<key>GpuDebugPolicy</key>
 			<integer>0</integer>
 			<key>IOClass</key>
@@ -93,7 +94,7 @@
 			<key>ATIUseTearingWideBlit</key>
 			<false/>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.AMDRadeonX3000</string>
+			<string>com.apple.kext.AMDRadeonX3000</string>
 			<key>GpuDebugPolicy</key>
 			<integer>0</integer>
 			<key>IOClass</key>
@@ -122,7 +123,7 @@
 			<key>ATIUseTearingWideBlit</key>
 			<false/>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.AMDRadeonX3000</string>
+			<string>com.apple.kext.AMDRadeonX3000</string>
 			<key>GpuDebugPolicy</key>
 			<integer>0</integer>
 			<key>IOClass</key>
@@ -151,7 +152,7 @@
 			<key>ATIUseTearingWideBlit</key>
 			<false/>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.AMDRadeonX3000</string>
+			<string>com.apple.kext.AMDRadeonX3000</string>
 			<key>GpuDebugPolicy</key>
 			<integer>0</integer>
 			<key>IOClass</key>
@@ -180,7 +181,7 @@
 			<key>ATIUseTearingWideBlit</key>
 			<false/>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.AMDRadeonX3000</string>
+			<string>com.apple.kext.AMDRadeonX3000</string>
 			<key>GpuDebugPolicy</key>
 			<integer>0</integer>
 			<key>IOClass</key>
@@ -209,7 +210,7 @@
 			<key>ATIUseTearingWideBlit</key>
 			<false/>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.AMDRadeonX3000</string>
+			<string>com.apple.kext.AMDRadeonX3000</string>
 			<key>GpuDebugPolicy</key>
 			<integer>0</integer>
 			<key>IOClass</key>
@@ -238,7 +239,7 @@
 			<key>ATIUseTearingWideBlit</key>
 			<false/>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.AMDRadeonX3000</string>
+			<string>com.apple.kext.AMDRadeonX3000</string>
 			<key>GpuDebugPolicy</key>
 			<integer>0</integer>
 			<key>IOClass</key>

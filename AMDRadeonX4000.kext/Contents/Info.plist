@@ -7,9 +7,9 @@
 	<key>CFBundleExecutable</key>
 	<string>AMDRadeonX4000</string>
 	<key>CFBundleGetInfoString</key>
-	<string>AMDRadeonX4000 1.51.8 18578</string>
+	<string>AMDRadeonX4000 1.58.30 18928</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.AMDRadeonX4000</string>
+	<string>com.apple.kext.AMDRadeonX4000</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -17,12 +17,12 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.51.8</string>
+	<string>1.58.30</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.5.1</string>
-	<key>CompanionBundles</key>
+	<string>1.5.8</string>
+	<key>GPUCompanionBundles</key>
 	<array>
 		<string>AMDRadeonX4000GLDriver.bundle</string>
 		<string>AMDRadeonVADriver.bundle</string>
@@ -37,7 +37,7 @@
 			<key>ATIUseTearingWideBlit</key>
 			<false/>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.AMDRadeonX4000</string>
+			<string>com.apple.kext.AMDRadeonX4000</string>
 			<key>GpuDebugPolicy</key>
 			<integer>0</integer>
 			<key>IOClass</key>
@@ -59,6 +59,46 @@
 			<key>IOVARendererID</key>
 			<integer>16908288</integer>
 		</dict>
+		<key>AMDEllesmereGraphicsAccelerator</key>
+		<dict>
+			<key>ATIEnableWideBlitSupport</key>
+			<true/>
+			<key>ATIUseTearingWideBlit</key>
+			<false/>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.kext.AMDRadeonX4000</string>
+			<key>GpuDebugPolicy</key>
+			<integer>0</integer>
+			<key>IOClass</key>
+			<string>AMDRadeonX4000_AMDEllesmereGraphicsAccelerator</string>
+			<key>IODVDBundleName</key>
+			<string>AMDRadeonVADriver2</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOMatchCategory</key>
+			<string>IOAccelerator</string>
+			<key>IOPCIMatch</key>
+			<string>0x67DF1002 0x67C01002</string>
+			<key>IOProbeScore</key>
+			<integer>200</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOSourceVersion</key>
+			<string>0.0.0.0.0</string>
+			<key>IOVARendererID</key>
+			<integer>16908288</integer>
+			<key>cail_properties</key>
+			<dict>
+				<key>CAIL_DisableAllClockGating</key>
+				<integer>0</integer>
+				<key>CAIL_DisableGfxClockGating</key>
+				<integer>0</integer>
+				<key>CAIL_DisableSysClockGating</key>
+				<integer>0</integer>
+				<key>CAIL_EnableLBPWSupport</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
 		<key>AMDHawaiiGraphicsAccelerator</key>
 		<dict>
 			<key>ATIEnableWideBlitSupport</key>
@@ -66,7 +106,7 @@
 			<key>ATIUseTearingWideBlit</key>
 			<false/>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.AMDRadeonX4000</string>
+			<string>com.apple.kext.AMDRadeonX4000</string>
 			<key>GpuDebugPolicy</key>
 			<integer>0</integer>
 			<key>IOClass</key>
@@ -95,7 +135,7 @@
 			<key>ATIUseTearingWideBlit</key>
 			<false/>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.AMDRadeonX4000</string>
+			<string>com.apple.kext.AMDRadeonX4000</string>
 			<key>GpuDebugPolicy</key>
 			<integer>0</integer>
 			<key>IOClass</key>
@@ -124,7 +164,7 @@
 			<key>ATIUseTearingWideBlit</key>
 			<false/>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.AMDRadeonX4000</string>
+			<string>com.apple.kext.AMDRadeonX4000</string>
 			<key>GpuDebugPolicy</key>
 			<integer>0</integer>
 			<key>IOClass</key>
@@ -153,11 +193,11 @@
 			<key>ATIUseTearingWideBlit</key>
 			<false/>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.AMDRadeonX4000</string>
+			<string>com.apple.kext.AMDRadeonX4000</string>
 			<key>GpuDebugPolicy</key>
 			<integer>0</integer>
 			<key>IOClass</key>
-			<string>AMDTongaGraphicsAccelerator</string>
+			<string>AMDRadeonX4000_AMDTongaGraphicsAccelerator</string>
 			<key>IODVDBundleName</key>
 			<string>AMDRadeonVADriver</string>
 			<key>IOKitDebug</key>
@@ -197,7 +237,7 @@
 			<key>ATIUseTearingWideBlit</key>
 			<false/>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.AMDRadeonX4000</string>
+			<string>com.apple.kext.AMDRadeonX4000</string>
 			<key>GpuDebugPolicy</key>
 			<integer>0</integer>
 			<key>IOClass</key>

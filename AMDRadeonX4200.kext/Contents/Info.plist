@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>AMDRadeonX4200</string>
 	<key>CFBundleGetInfoString</key>
-	<string>AMDRadeonX4200 1.51.8 18578</string>
+	<string>AMDRadeonX4200 1.58.30 18928</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.apple.kext.AMDRadeonX4200</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -17,11 +17,11 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.51.8</string>
+	<string>1.58.30</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.5.1</string>
+	<string>1.5.8</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>AMDBaffinGraphicsAccelerator</key>
@@ -37,7 +37,7 @@
 			<key>IOClass</key>
 			<string>AMDRadeonX4200_AMDBaffinGraphicsAccelerator</string>
 			<key>IODVDBundleName</key>
-			<string>AMDRadeonVADriver</string>
+			<string>AMDRadeonVADriver2</string>
 			<key>IOKitDebug</key>
 			<integer>0</integer>
 			<key>IOMatchCategory</key>
@@ -73,13 +73,15 @@
 			<key>IOClass</key>
 			<string>AMDRadeonX4200_AMDEllesmereGraphicsAccelerator</string>
 			<key>IODVDBundleName</key>
-			<string>AMDRadeonVADriver</string>
+			<string>AMDRadeonVADriver2</string>
 			<key>IOKitDebug</key>
 			<integer>0</integer>
 			<key>IOMatchCategory</key>
 			<string>IOAccelerator</string>
 			<key>IOPCIMatch</key>
 			<string>0x67DF1002 0x67C01002</string>
+			<key>IOPCITunnelCompatible</key>
+			<true/>
 			<key>IOProbeScore</key>
 			<integer>250</integer>
 			<key>IOProviderClass</key>
@@ -91,6 +93,8 @@
 			<key>cail_properties</key>
 			<dict>
 				<key>CAIL_EnableLBPWSupport</key>
+				<integer>0</integer>
+				<key>CAIL_EnableMaxPayloadSizeSync</key>
 				<integer>0</integer>
 			</dict>
 		</dict>

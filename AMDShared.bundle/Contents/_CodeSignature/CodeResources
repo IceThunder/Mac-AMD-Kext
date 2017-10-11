@@ -6,15 +6,15 @@
 	<dict>
 		<key>Resources/runtime.amdil_si.bc</key>
 		<data>
-		/PV+xQfbhnaE9dw9rs6D5eIsf7vfwomB+EH2jXS0fPY=
+		ZMNPc0v6VLub7VFuDi/6Eebtjis=
 		</data>
 		<key>Resources/runtime.amdil_si.builtin</key>
 		<data>
-		BOplxnHNIKBxUpGTuLN/35MYfqGcBBOsAwnv3APkxQY=
+		fMiiJzcslPIiok/i4BwyLJwhuFs=
 		</data>
 		<key>version.plist</key>
 		<data>
-		i5b9DwFxRHLZvv8ZRWhEJl+ZszWlcN8MUGehSg+55sg=
+		Ip5rFJ8cE+27dlNX8mWXLOqM6Ys=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -23,23 +23,32 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			Q7aCUj/m4bWFXgXseiOpbUgA6zE=
+			WTRkhprVmF3+MX0D0QPmyqYQdks=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.libAMDMtlCompilerPlugin" and anchor apple</string>
 		</dict>
 		<key>Resources/runtime.amdil_si.bc</key>
-		<data>
-		/PV+xQfbhnaE9dw9rs6D5eIsf7vfwomB+EH2jXS0fPY=
-		</data>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SqWakOP5S2GoqiE54EVlUDwltIXuU5CJG0dLNXE6Uo4=
+			</data>
+		</dict>
 		<key>Resources/runtime.amdil_si.builtin</key>
-		<data>
-		BOplxnHNIKBxUpGTuLN/35MYfqGcBBOsAwnv3APkxQY=
-		</data>
+		<dict>
+			<key>hash2</key>
+			<data>
+			j9PvLyJbt17Kz+AsYGV+0ZB/WDjfU6J4fs9dsyLc32I=
+			</data>
+		</dict>
 		<key>version.plist</key>
-		<data>
-		i5b9DwFxRHLZvv8ZRWhEJl+ZszWlcN8MUGehSg+55sg=
-		</data>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/yEaeQ1ET3otzLgYxiN+9sFTZtGLQAEJ5YNTdBfStEE=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
@@ -58,6 +67,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -117,6 +131,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>

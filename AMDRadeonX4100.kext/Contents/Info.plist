@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>AMDRadeonX4100</string>
 	<key>CFBundleGetInfoString</key>
-	<string>AMDRadeonX4100 1.51.8 18578</string>
+	<string>AMDRadeonX4100 1.58.30 18928</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.apple.kext.AMDRadeonX4100</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -17,11 +17,11 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.51.8</string>
+	<string>1.58.30</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.5.1</string>
+	<string>1.5.8</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>AMDBaffinGraphicsAccelerator</key>
@@ -37,7 +37,7 @@
 			<key>IOClass</key>
 			<string>AMDRadeonX4100_AMDBaffinGraphicsAccelerator</string>
 			<key>IODVDBundleName</key>
-			<string>AMDRadeonVADriver</string>
+			<string>AMDRadeonVADriver2</string>
 			<key>IOKitDebug</key>
 			<integer>0</integer>
 			<key>IOMatchCategory</key>

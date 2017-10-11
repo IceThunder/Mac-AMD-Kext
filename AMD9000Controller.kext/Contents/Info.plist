@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>16G18</string>
+	<string>16B2657</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>AMD9000Controller</string>
 	<key>CFBundleGetInfoString</key>
-	<string>AMD9000Controller 1.51.8 18578</string>
+	<string>AMD9000Controller 1.58.30 18928</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.apple.kext.AMD9000Controller</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Radeon HD 9000 Controller</string>
+	<string>"Radeon HD 9000 Controller"</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.51.8</string>
+	<string>1.58.30</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -27,21 +27,21 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.5.1</string>
+	<string>1.5.8</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>8V109d</string>
+	<string>9M189u</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>16G18</string>
+	<string>17A356</string>
 	<key>DTSDKName</key>
-	<string>macosx10.12internal</string>
+	<string>macosx10.13internal</string>
 	<key>DTXcode</key>
-	<string>0830</string>
+	<string>0900</string>
 	<key>DTXcodeBuild</key>
-	<string>8V109d</string>
+	<string>9M189u</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>Controller</key>
@@ -100,22 +100,6 @@
 					<integer>256</integer>
 				</dict>
 			</dict>
-			<key>ATY,Maltese</key>
-			<dict>
-				<key>aty_config</key>
-				<dict>
-					<key>CFG_USE_AGDC</key>
-					<true/>
-				</dict>
-			</dict>
-			<key>ATY,MalteseS</key>
-			<dict>
-				<key>aty_config</key>
-				<dict>
-					<key>CFG_USE_AGDC</key>
-					<true/>
-				</dict>
-			</dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.kext.AMD9000Controller</string>
 			<key>IOClass</key>
@@ -125,7 +109,7 @@
 			<key>IOName</key>
 			<string>AMD9000Controller</string>
 			<key>IOPCIMatch</key>
-			<string>0x69201002 0x69211002 0x69301002 0x69381002 0x69391002 0X73001002</string>
+			<string>0x69201002 0x69211002 0x69301002 0x69381002 0x69391002</string>
 			<key>IOProbeScore</key>
 			<integer>65050</integer>
 			<key>IOProviderClass</key>
@@ -174,7 +158,7 @@
 				<key>CFG_USE_AGDC</key>
 				<false/>
 				<key>CFG_USE_DPT</key>
-				<false/>
+				<true/>
 				<key>CFG_USE_FBC</key>
 				<false/>
 				<key>CFG_USE_FEDS</key>
@@ -225,6 +209,8 @@
 	</dict>
 	<key>OSBundleLibraries</key>
 	<dict>
+		<key>com.apple.AppleGraphicsDeviceControl</key>
+		<string>3.0.0</string>
 		<key>com.apple.iokit.IOACPIFamily</key>
 		<string>1.2</string>
 		<key>com.apple.iokit.IOGraphicsFamily</key>
@@ -232,7 +218,7 @@
 		<key>com.apple.iokit.IOPCIFamily</key>
 		<string>1.2</string>
 		<key>com.apple.kext.AMDSupport</key>
-		<string>1.5.1</string>
+		<string>1.5.8</string>
 		<key>com.apple.kpi.bsd</key>
 		<string>8.0.0</string>
 		<key>com.apple.kpi.iokit</key>

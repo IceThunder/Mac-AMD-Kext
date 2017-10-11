@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>AMDRadeonVADriver</string>
 	<key>CFBundleGetInfoString</key>
-	<string>AMDRadeonVADriver 1.51.8 18578</string>
+	<string>AMDRadeonVADriver 1.58.30 18928</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.apple. AMDRadeonVADriver</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -17,10 +17,10 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.51.8</string>
+	<string>1.58.30</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.5.1</string>
+	<string>1.5.8</string>
 </dict>
 </plist>
